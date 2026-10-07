@@ -1,0 +1,10 @@
+.counterBtn{
+    display: flex;
+    padding : 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.counterBtn > Button {
+    margin:10px;
+}

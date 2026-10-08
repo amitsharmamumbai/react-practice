@@ -6,6 +6,8 @@ import List from './examples/ChemistExample/App';
 import { Recipe } from './examples/Recipe';
 // import Counter from './examples/Counter'
 import { Counter } from './examples/Counter/Counter'
+import { ShapeEditor } from './examples/CircleDown';
+import { AddNames } from './examples/AddName';
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
       <h2>For group</h2>
       <Recipe drinker={4}/>
       <Counter/>
+      <ShapeEditor/>
+      <AddNames/>
     </>
   )
 

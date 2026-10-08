@@ -8,7 +8,7 @@ import { Recipe } from './examples/Recipe';
 import { Counter } from './examples/Counter/Counter'
 import { ShapeEditor } from './examples/CircleDown';
 import { AddNames } from './examples/AddName';
-
+import { DeleteEntries } from './examples/DeleteEntries';
 
 function App() {
 
@@ -34,6 +34,7 @@ function App() {
       <Counter/>
       <ShapeEditor/>
       <AddNames/>
+      <DeleteEntries/>
     </>
   )
 

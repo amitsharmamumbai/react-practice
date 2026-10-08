@@ -9,6 +9,7 @@ import { Counter } from './examples/Counter/Counter'
 import { ShapeEditor } from './examples/CircleDown';
 import { AddNames } from './examples/AddName';
 import { DeleteEntries } from './examples/DeleteEntries';
+import { InitialCounters } from './examples/InitialCounters';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
       <ShapeEditor/>
       <AddNames/>
       <DeleteEntries/>
+      <InitialCounters/>
     </>
   )
 
